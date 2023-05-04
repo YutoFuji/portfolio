@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PDCAサイクル</title>
+</head>
+<body>
+    <header id="header">
+        <img id="profile" src="images/1682656860000 (1).jpg" alt="顔写真">
+        <h1>藤原佑斗のポートフォリオ</h1>
+    </header>
+    <main>
+        <div class="top-section">
+            <h1 class="main-title">PDCAサイクル</h1>
+            <a href="https://pdcacycle-app.herokuapp.com" target="_blank" rel="noopener" class="app-link">サイトはこちら(別ウィンドウが開きます)</a>
+            <a href="https://github.com/YutoFuji/pdca-cycle-app" target="_blank" rel="noopener">Githubはこちら(別ウィンドウが開きます)</a>
+            <img src="images/スクリーンショット (51) - コピー.png" alt="pdcaサイクル" class="main-img">
+        </div>
+        
+        <section>
+            <div class="wrapper">
+                <div class="reason-section">
+                    <h2 class="theme-title">なぜ作ったか</h2>
+                    <p>
+                        着想は新入社員のときに目標管理をエクセルで書いた経験からです。その際、エクセルでの作業が非常に書きにくく、上の世代の方々にとっては特にハードルが高いと感じました。
+                        そこで、直感的に使いやすいWebアプリを開発することで、目標管理をより効果的かつ簡単に行えるようにしたいと思いました。
+                    </p>
+                </div>
+
+                <div class="emphasize-section">
+                    <h2 class="theme-title">こだわったポイント</h2>
+                    <p>
+                        意識した点は大きく二つです。
+                        まず一つ目はEloquentモデルを使いコードの可読性を上げたところです。SQLの知識をつけ、活用することによってより実務的なコードの記述ができたのではないかと思います。
+                        もう一つはajax通信を用いてリアルタイムに情報を取得するようにした点です。PDCAの作成と更新を同時に行う仕様のため、更新の際には現在の値を取得するように実装しました。
+                    </p>
+                </div>
+            </div>
+            <div id="emphasize-img">
+                <img src="images/スクリーンショット (52).png" alt="こだわったポイント" id="pdca-cycle-emphasizeimg1">
+                <img src="images/スクリーンショット (53).png" alt="こだわったポイント" id="pdca-cycle-emphasizeimg2">
+            </div>
+            <p id="emphasize-discription">
+                画像①　Planには値が入っているのでテキストボックスに現在の値が出力され、作成ボタンで更新ができる。<br>
+                画像②　Checkには値が入っていないのでテキストボックスには値が出力されない。
+            </p>
+
+            <div class="wrapper">
+                <div class="review-section">
+                    <h2 class="theme-title">作ってみて振り返り</h2>
+                    <p id="review">
+                        この作品において、CRUD機能や1対多の関連付けの構築、JavaScriptを使って動的な動作を実装、Ajax通信など、ウェブアプリ開発の基本を習得できたと思います。しかし、デザインに苦手意識を持ってしまい、UI/UXに至っては最低限にとどまってしまったことが反省点です。今後、より多くのアプリに触れることで、洗練されたデザインを追求していきたいと思います。
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
