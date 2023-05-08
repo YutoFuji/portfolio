@@ -40,8 +40,10 @@ body {
         margin-left: 20px;
     }
     #header h1 {
-        margin-bottom: 10px;
         margin-left: 30px;
+    }
+    #header-flame p {
+        margin-left: 40px;
     }
     /* main */
     .wrapper {
@@ -57,8 +59,8 @@ body {
         margin-bottom: 0;
         color: #fc8c8c;
     }
-    .app-link{
-        display: block;
+    .link-flame{
+        text-align: right;
     }
     #pdcacycle-app img {
         width: 500px;
@@ -97,6 +99,12 @@ body {
         margin: 0 auto;
         font-size: 0.8rem;
         margin-bottom: 100px;
+    }
+    #visit {
+        text-align: right;
+    }
+    #visit a:first-child {
+        margin-right: 15px;
     }
 }
 
